@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>冒泡排序可視化</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -33,6 +34,9 @@
 </head>
 <body>
     <h1>冒泡排序可視化</h1>
+    <div id="theme-toggle" onclick="toggleTheme()">
+        <span id="toggle-text">🌞 白天</span>
+    </div>
     <div id="array-container"></div>
     <button onclick="startSort()">開始排序</button>
 
@@ -76,5 +80,6 @@
         // 初始显示数组
         displayArray();
     </script>
+    <script src="script.js"></script>
 </body>
 </html>
